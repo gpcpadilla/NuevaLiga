@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="Web\IFicha.aspx" />
+    <Content Include="Web\Recibir.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\PersonajesRepositorios.cs" />
@@ -75,6 +76,13 @@
     </Compile>
     <Compile Include="Web\IFicha.aspx.designer.cs">
       <DependentUpon>IFicha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Recibir.aspx.cs">
+      <DependentUpon>Recibir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Recibir.aspx.designer.cs">
+      <DependentUpon>Recibir.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
