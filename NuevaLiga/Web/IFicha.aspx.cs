@@ -12,7 +12,7 @@ namespace NuevaLiga.Web
 {
     public partial class IFicha : System.Web.UI.Page
     {
-        protected void Page_Load(object agregado, EventArgs e)
+        protected void btnEnviar_Click(object agregado, EventArgs e)
         {
 
             Caracterizacion datos = new Caracterizacion(tbname.Text,
